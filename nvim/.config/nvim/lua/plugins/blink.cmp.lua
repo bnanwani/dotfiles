@@ -1,5 +1,6 @@
 return {
 	"saghen/blink.cmp",
+	event = "VimEnter",
 	version = "1.*",
 	---@module 'blink.cmp'
 	---@type blink.cmp.Config
@@ -20,14 +21,15 @@ return {
 				auto_show = true,
 				auto_show_delay_ms = 5000,
 			},
-
-			menu = {
-				auto_show = true,
-			},
-
-			sources = {
-				default = { "lsp", "path", "snippets", "buffer" },
-			},
 		},
+		menu = {
+			auto_show = true,
+		},
+
+		sources = {
+			default = { "lsp", "path" },
+		},
+
+		signature = { enabled = true },
 	},
 }
