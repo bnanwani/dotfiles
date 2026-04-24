@@ -10,3 +10,11 @@ vim.o.timeoutlen = 300
 vim.o.splitright = true
 vim.o.splitbelow = true
 vim.o.cursorline = true
+vim.o.expandtab = true
+vim.o.shiftwidth = 4
+vim.o.tabstop = 4
+vim.o.softtabstop = 4
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+vim.o.termguicolors = true
+
