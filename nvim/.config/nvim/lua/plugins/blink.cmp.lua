@@ -21,9 +21,10 @@ return {
 				auto_show = true,
 				auto_show_delay_ms = 5000,
 			},
-		},
-		menu = {
-			auto_show = true,
+
+			menu = {
+				auto_show = true,
+			},
 		},
 
 		sources = {
